@@ -1,0 +1,131 @@
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #4d2323;
+        /*stick footer down */
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .header {
+        background-color: #829985;
+    }
+    
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        padding: 0 20px;
+        line-height: 50px;
+    }
+    
+    .nav-link {
+        transition: .3s;
+    }
+    
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.5s;
+        padding: 10px;
+    }
+    
+    .nav-item a:hover {
+        color: #4d2323;
+    }
+    
+    .gitlink {
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+    }
+    
+    .gitlink:hover {
+        color: #4d2323;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    
+    .section {
+        width: 50%;
+    }
+    
+    @media (max-width: 768px) {
+        .section {
+            width: 100%;
+        }
+    }
+    
+    .section-title {
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #829985;
+    }
+    
+    .photo {
+        float: left;
+        width: 200px;
+        margin-left: 20px;
+        border-radius: 100px;
+    }
+    
+    .rsslogo {
+        float: right;
+        width: 70px;
+        margin-right: 50px;
+    }
+    
+    .footer {
+        background-color: #829985;
+        height: 70px;
+        font-size: 14px;
+        text-indent: 20px;
+        color: white;
+    }
+    
+    #profile {
+        text-indent: 100px;
+        height: 230px;
+        text-transform: uppercase;
+        color: #829985;
+    }
+    
+    #code {
+        font-size: 14px;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    .list li::before {
+        content: "○";
+        color: #829985;
+        margin-right: 10px;
+    }
