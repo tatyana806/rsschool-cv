@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="photo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience/courses</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#keystrengths" class="nav-link">Key strengths</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section id="profile">
+            <img src="photo1.jpg" alt="my photo" class="photo">
+            <h1 class="name">Tetiana Lytvyn</h1>
+            <p class="position">Junior front-end developer</p>
+        </section>
+        <div class="main-container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Address: Kyiv, Ukraine</li>
+                    <li> E-mail:
+                        <a href="mailto:li_ta@ukr.net">li_ta@ukr.net</a>
+                    </li>
+                    <li>Discord: @tatyana806</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>National Technical University of Ukraine ‘Kiev Polytechnic Institute’</p>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience/courses</h2>
+                <ul class="list">
+                    <li>HTML and CSS Tutorials on the w3schools (completed)</li>
+                    <li>Basics of HTML/CSS layout https://goit.ua/</li>
+                    <li>Basics of HTML/CSS layout https://easystart.com.ua/</li>
+                    <li>Websites on Tilda https://profreework.com/</li>
+                    <li>JavaScript Manual (in progress)</li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="list">
+                    <li>Russian - Native</li>
+                    <li>Ukrainian - Native</li>
+                    <li>English – Upper-Intermediate level</li>
+                </ul>
+            </section>
+            <section class="section" id="keystrengths">
+                <h2 class="section-title">Key strengths</h2>
+                <p>responsible, fast learner, proactive, communicative, hardworking, goal-oriented</p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre><code>
+                &lt;div style=&quot;border: 1px solid lightgrey; margin-top: 10px; padding: 10px; width: 59%; border-radius: 10px;&quot;&gt;
+                    &lt;p&gt;Promovideo:&lt;/p&gt;
+                    &lt;iframe src=&quot;https://www.youtube.com/embed/NxD7V72uI68&quot; title=&quot;Serial Promo&quot; style=&quot;border: none; width: 320px; height: 200px;&quot;&gt;
+                    &lt;/iframe&gt;
+                </code></pre>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="RS School logo" class="rsslogo"></a>
+            <p>&#169; 2022 Tetiana Lytvyn</p>
+            <a href="https://github.com/tatyana806" target="_blank" class="gitlink">Visit my GitHub account</a>
+        </div>
+    </footer>
 </body>
+
 </html>
