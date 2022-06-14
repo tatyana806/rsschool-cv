@@ -4,7 +4,7 @@
 
 Junior front-end developer
 
-### **Contact information**
+### **Contacts**
 Address: Kyiv, Ukraine
 
 E-mail: li_ta@ukr.net
@@ -17,7 +17,7 @@ National Technical University of Ukraine ‘Kiev Polytechnic Institute’
 ### **Experience/courses:**
 * HTML and CSS Tutorials on the w3schools (completed)
 * Basics of HTML/CSS layout https://goit.ua/
-* Basics of HTML/CSS layout easystart.com.ua
+* Basics of HTML/CSS layout https://easystart.com.ua/
 * Websites on Tilda https://profreework.com/
 * JavaScript Manual (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
